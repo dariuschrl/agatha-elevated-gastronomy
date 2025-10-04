@@ -63,7 +63,7 @@ export const Contact = () => {
                   <div>
                     <h4 className="font-semibold mb-2 text-foreground">Adresă</h4>
                     <p className="text-muted-foreground">
-                      Brașov, România
+                      Iași, România
                     </p>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ export const Contact = () => {
                 <a href="tel:0723204524">
                   <Button 
                     size="lg"
-                    className="w-full bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold"
+                    className="w-full bg-white text-primary hover:bg-white/90 font-semibold"
                   >
                     <Phone className="mr-2 h-5 w-5" />
                     Apelează 0723 204 524
@@ -112,8 +112,7 @@ export const Contact = () => {
                 <a href="tel:0770554595">
                   <Button 
                     size="lg"
-                    variant="outline"
-                    className="w-full border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 font-semibold"
+                    className="w-full bg-white text-primary hover:bg-white/90 font-semibold"
                   >
                     <Phone className="mr-2 h-5 w-5" />
                     Apelează 0770 554 595
@@ -132,4 +131,5 @@ export const Contact = () => {
       </div>
     </section>
   );
+};
 };
