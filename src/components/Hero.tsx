@@ -18,7 +18,7 @@ export const Hero = () => {
         }}
       />
       
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/70 to-primary/90" /> {/* Increased opacity */}
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/50 to-primary/70" />
       
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
         <div className="max-w-4xl mx-auto">
@@ -52,8 +52,7 @@ export const Hero = () => {
             </Button>
             <Button 
               size="lg"
-              variant="outline"
-              className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-semibold px-8 py-6 text-lg backdrop-blur-sm"
+              className="bg-white/10 text-primary-foreground border-2 border-white/80 hover:bg-white hover:text-primary font-semibold px-8 py-6 text-lg backdrop-blur-sm"
               onClick={() => scrollToSection('events')}
             >
               <Calendar className="mr-2 h-5 w-5" />
