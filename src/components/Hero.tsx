@@ -14,11 +14,11 @@ export const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ 
           backgroundImage: `url(${heroImage})`,
-          filter: 'brightness(0.7)'
+          filter: 'brightness(0.5)' // Darkened from 0.7 to 0.5
         }}
       />
       
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/80 via-primary/60 to-primary/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/70 to-primary/90" /> {/* Increased opacity */}
       
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
         <div className="max-w-4xl mx-auto">
